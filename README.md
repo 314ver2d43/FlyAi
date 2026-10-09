@@ -1,6 +1,7 @@
 # FlyAi
 
 Ссылка на скачивание .feather датасета необходимого для работы программы (после установки обязательно положите его в папку src: https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/connectome-weights-male-cns-v1.0-minconf-0.5.feather
+
 Перечень необходимого ПО:
 Python3
 Git
