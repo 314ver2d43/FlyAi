@@ -7,7 +7,9 @@ Python3
 
 Git
 
+
 Перечень необходимых библиотек:
+
 pandas
 
 pyarrow
@@ -21,15 +23,20 @@ scikit-learn
 jupyter
 
 
+
+
+
 Пошаговая инструкция по установке и запуску:
 
 Откройте командную строку (терминал) на своем компьютере
+
 
 Склонируйте репозиторий и перейдите в папку проекта:
 
 	git clone https://github.com/314ver2d43/FlyAi.git
 	
 	cd FlyAi
+
 	
 Создайте и активируйте виртуальное окружение:
 
@@ -38,6 +45,7 @@ jupyter
 		python -m venv venv
 		
 		venv\Scripts\activate
+
 		
     Для Linux / macOS:
 	
@@ -45,17 +53,23 @@ jupyter
 		
 		source venv/bin/activate
 
+
+
 Установите необходимые библиотеки одной командой:
 
 	pip install -r src/requirements.txt
+
+
 
 Запустите обработку данных:
 
 	python src/dataoptimize.py
 
+
 Откройте файл с анализом:
 
 	jupyter notebook src/flybrainproject.ipynb
+
 	
 Примеры входных и выходных данных
 
@@ -66,6 +80,7 @@ jupyter
 bodyid_pre / bodyid_post — ID пресинаптических и постсинаптических нейронов.
 
 weight — сила связи (фильтруются связи с силой < 3).
+
 
 
 Выходные данные (brain.bin)
